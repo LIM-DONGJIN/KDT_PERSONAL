@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
 
 
 // api 모듈 호출
-const userRouter = require('./KDT_PERSONAL/routes/users');
+const userRouter = require('./routes/users');
 app.use('/users', userRouter);
 
 
